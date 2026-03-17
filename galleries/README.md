@@ -1,9 +1,11 @@
-Images that are in the photo Gallery
+## Images that are in the photo Gallery
 
-The metadata.yml file need to be edited after changing photo images.
+The metadata.yml file needs to be edited after changing photo images.
 
 The metadata.yml file currently is like the following.
 Note that the three hyphens "---" between information about each image must be kept.
+The filenames do not have to include any numbering. E.g. tesla_1.jpg could be named tesla_tower.jpg
+The caption can not start with a number. E.g. Can not have: caption: 1. The Big Tower. 
 
 ```
 ---
