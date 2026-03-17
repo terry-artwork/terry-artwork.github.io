@@ -19,7 +19,7 @@ If you would like to purchase any of my paintings, then please go to the `Contac
 Have a good day, Terry.
 
 
-This is my featured piece of art. It is "The Tree" which is an acrylic on canvas that I'm selling for $50. Click image for enlargement.
+This is my currently featured artwork. Click image for enlargement.
 
 
 .. thumbnail:: /images/tree_painting.jpg
@@ -27,4 +27,8 @@ This is my featured piece of art. It is "The Tree" which is an acrylic on canvas
     :align: center
     :width: 200 px
     
+.. raw:: html 
 
+    <center>
+      No.0. The Tree. Acrylic-on-canvas. 50cm x 40cm. $60
+    </center>
