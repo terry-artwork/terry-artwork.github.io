@@ -19,12 +19,11 @@ If you would like to purchase any of my paintings, then please go to the `Contac
 Have a good day, Terry.
 
 .. raw:: html 
-
     <center>
       This is my currently featured artwork. Click image for enlargement.
     </center>
 
-.. When changing the featured picture on the homepage edit the filename. i.e. /images/tree_painting.jpg
+.. When changing the featured picture on the homepage edit the filename. i.e. /images/tree_painting.jpg and "the tree"
 
 .. thumbnail:: /images/tree_painting.jpg
     :alt: the tree
