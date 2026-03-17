@@ -24,16 +24,14 @@ Have a good day, Terry.
       This is my currently featured artwork. Click image for enlargement.
     </center>
 
-..
-    When changing the featured picture on the homepage edit the filename. i.e. /images/tree_painting.jppg
+.. When changing the featured picture on the homepage edit the filename. i.e. /images/tree_painting.jpg
 
 .. thumbnail:: /images/tree_painting.jpg
     :alt: the tree
     :align: center
     :width: 200 px
 
-..
-    When changing the featured picture on the homepage edit the caption. i.e. No.0. The Tree. Acrylic-on-canvas. 50cm x 40cm. $60
+.. When changing the featured picture on the homepage edit the caption. i.e. No.0. The Tree. Acrylic-on-canvas. 50cm x 40cm. $60
 
 .. raw:: html 
 
