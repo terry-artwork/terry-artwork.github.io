@@ -18,9 +18,11 @@ If you would like to purchase any of my paintings, then please go to the `Contac
 
 Have a good day, Terry.
 
+.. raw:: html 
 
-This is my currently featured artwork. Click image for enlargement.
-
+    <center>
+      This is my currently featured artwork. Click image for enlargement.
+    </center>
 
 .. thumbnail:: /images/tree_painting.jpg
     :alt: the tree
