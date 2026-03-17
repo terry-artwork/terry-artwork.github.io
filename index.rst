@@ -12,7 +12,7 @@ Welcome to my Artwork
 
 Hi, I'm Terry, and I welcome you to view my Artwork.
 
-A collection of my recent artwork that I currently have for sale may be viewed in the `Gallery </galleries/demo/>`_.
+A collection of my recent artwork that I currently have for sale may be viewed in the `Gallery <galleries>`_.
 
 If you would like to purchase any of my paintings, then please go to the `Contact <contact>`_ page and send me an e-mail.
 
@@ -24,11 +24,17 @@ Have a good day, Terry.
       This is my currently featured artwork. Click image for enlargement.
     </center>
 
+..
+    When changing the featured picture on the homepage edit the filename. i.e. /images/tree_painting.jppg
+
 .. thumbnail:: /images/tree_painting.jpg
     :alt: the tree
     :align: center
     :width: 200 px
-    
+
+..
+    When changing the featured picture on the homepage edit the caption. i.e. No.0. The Tree. Acrylic-on-canvas. 50cm x 40cm. $60
+
 .. raw:: html 
 
     <center>
