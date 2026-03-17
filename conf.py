@@ -167,7 +167,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/index.html', '🏠'),
-        ("/galleries/demo/", "Gallery"),        
+        ("/galleries/", "Gallery"),        
         ("/contact/", "Contact"),
         ("/about/", "About"),
     ),
@@ -176,13 +176,13 @@ NAVIGATION_LINKS = {
 """
         (        
             (
-                ('/dog/dog-introduction/', '犬について'),
-                ('/dog/dog-puppy/', '子犬'),
-                ('/dog/dog-black/', 'ブラックドッグ'),
-                ('/dog/dog-white/', 'ホワイトドッグ'),
-                ('/dog/dog-spot/', 'スポッティ・ドッグ'),
+                ('/dog/dog-introduction/', 'intro'),
+                ('/dog/dog-puppy/', 'Puppy'),
+                ('/dog/dog-black/', 'Black Dog'),
+                ('/dog/dog-white', 'White Dog'),
+                ('/dog/dog-spot/', 'Spotty Dog'),
             ),
-            '犬'
+            'Dogs'
         ),
 """
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
