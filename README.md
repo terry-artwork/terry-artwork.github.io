@@ -108,7 +108,7 @@ src <-- Source code for the website
                                 Runs after every change to the website is made.   
 ```
 Files that are normally changed by Terry and files that are normally changed by Ian.
-Ian doesn't normally have to change any fiels once the website is in use. 
+Ian doesn't normally have to change any files once the website is in use. 
 
 ```
 src <-- Source code for the website
@@ -142,7 +142,7 @@ src <-- Source code for the website
         └── main.yml        <-- *Ian* The yaml file that runs the Nikola website building application. 
 ```
   
-Files That Terry will change every time a painting photo is added or removed, or there is a change to the price, etc. Ian will help do this.
+Files That Terry will change every time a painting photo is added or removed, or there is a change to the price, etc.
 ```       
 src <-- Source code for the website
 │
