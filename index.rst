@@ -25,6 +25,7 @@ Have a good day, Terry.
 
 .. When changing the featured picture on the homepage edit the filename. i.e. /images/tree_painting.jpg and "the tree"
 
+
 .. thumbnail:: /images/tree_painting.jpg
     :alt: the tree
     :align: center
@@ -33,7 +34,6 @@ Have a good day, Terry.
 .. When changing the featured picture on the homepage edit the caption. i.e. No.0. The Tree. Acrylic-on-canvas. 50cm x 40cm. $60
 
 .. raw:: html 
-
     <center>
       No.0. The Tree. Acrylic-on-canvas. 50cm x 40cm. $60
     </center>
