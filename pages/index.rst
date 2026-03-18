@@ -30,7 +30,7 @@ Have a good day, Terry.
 .. thumbnail:: /images/two-horses.jpg
     :alt: two horses
     :align: center
-    :width: 200 px
+    :width: 400 px
 
 .. When changing the featured picture on the homepage edit the caption. i.e. No.0. The Tree. Acrylic-on-canvas. 50cm x 40cm. $60
 
