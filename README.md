@@ -5,9 +5,11 @@ Terry's Artwork Website
 The initial design of this website has four webpages: Home, Contact, About, and Galleries.
 
 The tree diagrams below show all the directories and files in the source code that the Nikola application uses to create the website. 
-The diagrams are repeated but with comments removes so its easy to see which files should get changed and by whom.
 
-These are the directories and files in the src code 
+The diagrams are repeated but with differents sets of comments so its easy to see which files should get changed and by whom.
+
+This tree diagram displays the 8 x directories and the 16 x files that make up the src branch.
+
 ```
 src <-- Source code for the website
 │
@@ -41,7 +43,7 @@ src <-- Source code for the website
         └── main.yml
 ```
 
-These are the directories
+This tree highlights the directories
 ```
 src <-- Source code for the website
 │
@@ -74,7 +76,7 @@ src <-- Source code for the website
         └── main.yml        <--   
 ```
 
-These are the Files 
+This tree highlights the files
 ```
 src <-- Source code for the website
 │
@@ -107,7 +109,8 @@ src <-- Source code for the website
         └── main.yml        <-- The yaml file that runs the Nikola website building application. 
                                 Runs after every change to the website is made.   
 ```
-Files that are normally changed by Terry and files that are normally changed by Ian.
+
+This tree highlights the files that are normally changed by Terry and files that are normally changed by Ian.
 Ian doesn't normally have to change any files once the website is in use. 
 
 ```
@@ -142,7 +145,8 @@ src <-- Source code for the website
         └── main.yml        <-- *Ian* The yaml file that runs the Nikola website building application. 
 ```
   
-Files That Terry will change every time a painting photo is added or removed, or there is a change to the price, etc.
+The files that Terry will change every time a painting photo is added or removed, or there is a change to the price, etc.
+
 ```       
 src <-- Source code for the website
 │
@@ -175,3 +179,8 @@ src <-- Source code for the website
         └── main.yml        
    
 ```
+## Summary.
+
+Ian changes some files, but mostly this is done when creating the website. After that these files don't normally need changing.
+
+Terry edits or removes files whenever he wants to change the featured picture in the home page, or change the pictures in the gallery.
