@@ -192,3 +192,40 @@ src <-- Source code for the website
 Ian changes some files, but mostly this is done when creating the website. After that these files don't normally need changing.
 
 Terry edits or removes files whenever he wants to change the featured picture in the home page, or change the pictures in the gallery.
+
+
+## Metadata.yml file
+
+The metadata.yml file in `src/galleries/` directory needs to be edited after changing photo images. This file provides the captions that go at the bottom of each enlarged image.
+
+The metadata.yml file on the website is currently as show below.
+
+Notes: 
+
+* The three hyphens "---" between information about each image must be kept.
+* The filenames do not have to include any numbering. E.g. *tesla_1.jpg* could be named *tesla_tower.jpg*.
+* The caption can not start with a number. E.g. Can not have: *caption: 1. The Big Tower*. 
+
+
+**metadata.yml**
+
+```yaml
+
+---
+name: tesla_1.jpg
+caption: No.1. The Big Tower. Acrylic on canvas. 30cm x 50cm. $20
+---
+name: tesla_2.jpg
+caption: No.2. The Man with a Moustache. Acrylic on canvas. 40cm x 80cm. $50
+---
+name: tesla_3.jpg
+caption: No.3. Three Generators. Acrylic on canvas. 60cm x 45cm. $40
+---
+name: tesla_4.jpg
+caption: No.4. A Skinny Tower. Acrylic on canvas. 60cm x 45cm. $40
+---
+name: tesla_5.jpg
+caption: No.5. Man with a Light Bulb. Acrylic on canvas. 60cm x 45cm. $40
+---
+
+```

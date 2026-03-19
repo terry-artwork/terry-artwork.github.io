@@ -24,7 +24,7 @@
 Terry's Artwork Website
 The initial design of this we">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2026-03-19T16:31:37+09:00">
+<meta property="article:published_time" content="2026-03-19T16:56:53+09:00">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -247,6 +247,33 @@ Ian doesn't normally have to change any files once the website is in use. </p>
 <h3>Summary.</h3>
 <p>Ian changes some files, but mostly this is done when creating the website. After that these files don't normally need changing.</p>
 <p>Terry edits or removes files whenever he wants to change the featured picture in the home page, or change the pictures in the gallery.</p>
+<h3>Metadata.yml file</h3>
+<p>The metadata.yml file in <code>src/galleries/</code> directory needs to be edited after changing photo images. This file provides the captions that go at the bottom of each enlarged image.</p>
+<p>The metadata.yml file on the website is currently as show below.</p>
+<p>Notes: </p>
+<ul>
+<li>The three hyphens "---" between information about each image must be kept.</li>
+<li>The filenames do not have to include any numbering. E.g. <em>tesla_1.jpg</em> could be named <em>tesla_tower.jpg</em>.</li>
+<li>The caption can not start with a number. E.g. Can not have: <em>caption: 1. The Big Tower</em>. </li>
+</ul>
+<p><strong>metadata.yml</strong></p>
+<div class="code"><pre class="code literal-block"><span class="nn">---</span>
+<span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tesla_1.jpg</span>
+<span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">No.1. The Big Tower. Acrylic on canvas. 30cm x 50cm. $20</span>
+<span class="nn">---</span>
+<span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tesla_2.jpg</span>
+<span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">No.2. The Man with a Moustache. Acrylic on canvas. 40cm x 80cm. $50</span>
+<span class="nn">---</span>
+<span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tesla_3.jpg</span>
+<span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">No.3. Three Generators. Acrylic on canvas. 60cm x 45cm. $40</span>
+<span class="nn">---</span>
+<span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tesla_4.jpg</span>
+<span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">No.4. A Skinny Tower. Acrylic on canvas. 60cm x 45cm. $40</span>
+<span class="nn">---</span>
+<span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tesla_5.jpg</span>
+<span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">No.5. Man with a Light Bulb. Acrylic on canvas. 60cm x 45cm. $40</span>
+<span class="nn">---</span>
+</pre></div>
     </div>
     
 
