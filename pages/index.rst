@@ -37,5 +37,5 @@ Have a good day, Terry.
 .. raw:: html
 
     <center>
-      No.0. Explosion of Colour. Oil-on-canvas. 28in. x 16i. Price: Reasonable offer.
+      No.0. Explosion of Colour. Oil-on-canvas. 28in. x 16in. Price: Reasonable offer.
     </center>
