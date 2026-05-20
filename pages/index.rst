@@ -27,15 +27,15 @@ Have a good day, Terry.
 .. When changing the featured picture on the homepage edit the filename. i.e. /images/tree_painting.jpg and "the tree"
 
 
-.. thumbnail:: /images/two-horses.jpg
-    :alt: two horses
+.. thumbnail:: /images/explosion_of_colour.jpg
+    :alt: explosion of colour
     :align: center
-    :width: 400 px
+    :width: 500 px
 
-.. When changing the featured picture on the homepage edit the caption. i.e. No.0. The Tree. Acrylic-on-canvas. 50cm x 40cm. $60
+.. When changing the featured picture on the homepage edit the caption. i.e. No.0. The Tree. Oil-on-canvas. 28in x 16in.
 
 .. raw:: html
 
     <center>
-      No.0. Two Horses. Oil-on-canvas in glass wooden frame. 405mm x 306mm. Price: Reasonable offer.
+      No.0. Explosion of Colour. Oil-on-canvas. 28in. x 16i. Price: Reasonable offer.
     </center>
